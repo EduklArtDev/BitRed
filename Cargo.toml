@@ -1,12 +1,12 @@
 [package]
 name = "BitRed"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
 
 bdk = "0.28"
-
-# JSON + serialização
-serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
+bip39 = "2.0"
+hex = "0.4"
+rand = "0.8.5"
+sha256 = "1.5.0"
